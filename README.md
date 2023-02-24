@@ -18,7 +18,29 @@ The R-squared is equivalent to 71.2% which means the model will predict the mpg 
 ## Summary Statistics on Suspension Coils
 
 #### total_summary
+<img width="574" alt="Screen Shot 2023-02-24 at 2 30 17 AM" src="https://user-images.githubusercontent.com/112206035/221121078-1f241f0a-943f-4878-ba99-497f3ae6d9e3.png">
 
 #### lot_summary
+<img width="430" alt="Screen Shot 2023-02-24 at 2 29 57 AM" src="https://user-images.githubusercontent.com/112206035/221121085-95fba827-7e25-4b5a-8f98-1777d5b88d8d.png">
 
 #### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+## T-Tests on Suspension Coils
+
+#### Summary
+briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+
+## Study Design: MechaCar vs Competition
+
+#### Statistical Study
+Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+
+In your description, address the following questions:
+
+What metric or metrics are you going to test?
+
+What is the null hypothesis or alternative hypothesis?
+
+What statistical test would you use to test the hypothesis? And why?
+
+What data is needed to run the statistical test?
