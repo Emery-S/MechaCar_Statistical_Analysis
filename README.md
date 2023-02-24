@@ -13,7 +13,7 @@ The slope cannot be considered to be at zero due to the P-value = 6.7×10<sup>-1
 
 The R-squared is equivalent to 71.2% which means the model will predict the mpg values 71.2% of the time. While this is high and does mean the regression has high efficacy in the prediction of mpg, 38.8% of the time it will not predict the values correctly which is likely due to other factors involving the sample size.
 
-<img width="550" alt="Screen Shot 2023-02-24 at 1 17 25 AM" src="https://user-images.githubusercontent.com/112206035/221106376-b861a46e-2738-458b-9327-23f630d767fd.png">
+<img width="600" alt="Screen Shot 2023-02-24 at 1 17 25 AM" src="https://user-images.githubusercontent.com/112206035/221106376-b861a46e-2738-458b-9327-23f630d767fd.png">
 
 ## Summary Statistics on Suspension Coils
 
@@ -30,25 +30,28 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ## T-Tests on Suspension Coils
 
 ### Summary
-The common significance level of the hypothesis test is 0.05
 
 #### t-Tests comparing PSI across all Manufacturing_Lots
 The mean PSI across all manufacturing lots is not statistically different from the population as the mean, 1498.78, is only 1.22 away from the true sample and the p-value, equal to 0.06, is larger than the common significance level of 0.05. There is not sufficient evidence to reject the null hypotheis.
-<img width="350" alt="Screen Shot 2023-02-24 at 3 00 06 AM" src="https://user-images.githubusercontent.com/112206035/221125799-a454e16a-9192-4a90-af05-7f8d89434486.png">
+
+<img width="400" alt="Screen Shot 2023-02-24 at 3 00 06 AM" src="https://user-images.githubusercontent.com/112206035/221125799-a454e16a-9192-4a90-af05-7f8d89434486.png">
 
 #### t-Tests comparing PSI across individual_Lots
 
 ##### Lot_1
-<img width="350" alt="Screen Shot 2023-02-24 at 3 08 35 AM" src="https://user-images.githubusercontent.com/112206035/221126065-77ce2c61-e971-44dd-bc2c-f4cc01d775f5.png">
 In lot 1, the mean PSI is not statistically different from the population. The mean is equivalent to the true sample mean of 1500 and with a p-value of 1 it is sitting almost exactly in the center of the overal statistics in this population. There is not sufficient evidence to reject the null hypotheis.
 
+<img width="400" alt="Screen Shot 2023-02-24 at 3 08 35 AM" src="https://user-images.githubusercontent.com/112206035/221126065-77ce2c61-e971-44dd-bc2c-f4cc01d775f5.png">
+
 ##### Lot_2
-<img width="350" alt="Screen Shot 2023-02-24 at 3 09 08 AM" src="https://user-images.githubusercontent.com/112206035/221126144-9ce22d35-2577-445e-b39f-83131a6361cc.png">
 In lot 2, the mean PSI is not statistically different from the population. The mean, 1500.2, is 0.2 away from the true sample mean and the p-value, equal to 0.061, is larger than the common significance level of 0.05. There is not sufficient evidence to reject the null hypotheis.
 
+<img width="400" alt="Screen Shot 2023-02-24 at 3 09 08 AM" src="https://user-images.githubusercontent.com/112206035/221126144-9ce22d35-2577-445e-b39f-83131a6361cc.png">
+
 ##### Lot_3
-<img width="350" alt="Screen Shot 2023-02-24 at 3 09 27 AM" src="https://user-images.githubusercontent.com/112206035/221126200-2143a734-70bc-43ee-9339-69fc35ce0145.png">
-In lot 3, the mean PSI is statistically different from the population.
+In lot 3, the mean PSI is statistically different from the population. The mean, 1496.14, has a larger difference from the true sample mean and the p-value is equivalent to 0.041 which is less than the common significance level of 0.05. There is sufficient evidence to reject the null hypothesis.
+
+<img width="400" alt="Screen Shot 2023-02-24 at 3 09 27 AM" src="https://user-images.githubusercontent.com/112206035/221126200-2143a734-70bc-43ee-9339-69fc35ce0145.png">
 
 ## Study Design: MechaCar vs Competition
 
