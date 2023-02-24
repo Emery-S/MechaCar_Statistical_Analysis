@@ -57,9 +57,9 @@ Null Hypothesis: MechaCar's Break speed is the same as other cars on wet roads.
 Alternate Hypothesis: MechaCar's Break speed not the same as other cars on wet roads.
 
 #### Metrics
-Dependent Variable: Break speed in mph
-Independent Variable: Car weight in lbs
-Independent Variable: Car name/type
+- Dependent Variable: Break speed in mph
+- Independent Variable: Car weight in lbs
+- Independent Variable: Car name/type
 
 The statistical test utilized for a comprehensive understanding of the results would be the one-sample t-test. This is optimal because it can directly compare MechaCar's mean break speed to the mean break speed from a sample size of different car weights, addressing the specified hypothesis. 
 
