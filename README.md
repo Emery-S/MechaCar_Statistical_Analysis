@@ -15,3 +15,10 @@ The R-squared is equivalent to 71.2% which means the model will predict the mpg 
 
 <img width="550" alt="Screen Shot 2023-02-24 at 1 17 25 AM" src="https://user-images.githubusercontent.com/112206035/221106376-b861a46e-2738-458b-9327-23f630d767fd.png">
 
+## Summary Statistics on Suspension Coils
+
+#### total_summary
+
+#### lot_summary
+
+#### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
