@@ -20,6 +20,9 @@ head(SusCoil)
 # create a data frame for the suspension coil PSI summary
 total_summary <- SusCoil %>% summarize(Mean=mean(PSI),Median=median(PSI), Varience=var(PSI),Std_Dev =sd(PSI), Num_Coil=n() ,.groups = 'keep')
 
+
+
+
 # create a data frame for the suspension coil lot summary 
 lot_summary <- SusCoil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI), Varience=var(PSI),Std_Dev =sd(PSI), Num_Coil=n() ,.groups = 'keep')
 
