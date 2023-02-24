@@ -27,8 +27,23 @@ The R-squared is equivalent to 71.2% which means the model will predict the mpg 
 
 ## T-Tests on Suspension Coils
 
-#### Summary
+### Summary
 briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+
+#### t-Tests comparing PSI across all Manufacturing_Lots
+<img width="350" alt="Screen Shot 2023-02-24 at 3 00 06 AM" src="https://user-images.githubusercontent.com/112206035/221125799-a454e16a-9192-4a90-af05-7f8d89434486.png">
+
+#### t-Tests comparing PSI across individual_Lots
+
+##### Lot_1
+<img width="350" alt="Screen Shot 2023-02-24 at 3 08 35 AM" src="https://user-images.githubusercontent.com/112206035/221126065-77ce2c61-e971-44dd-bc2c-f4cc01d775f5.png">
+
+##### Lot_2
+<img width="350" alt="Screen Shot 2023-02-24 at 3 09 08 AM" src="https://user-images.githubusercontent.com/112206035/221126144-9ce22d35-2577-445e-b39f-83131a6361cc.png">
+
+##### Lot_3
+<img width="350" alt="Screen Shot 2023-02-24 at 3 09 27 AM" src="https://user-images.githubusercontent.com/112206035/221126200-2143a734-70bc-43ee-9339-69fc35ce0145.png">
+
 
 ## Study Design: MechaCar vs Competition
 
