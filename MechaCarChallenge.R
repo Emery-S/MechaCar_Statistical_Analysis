@@ -1,0 +1,5 @@
+library(tidyverse)
+MechaCar <- read.csv(file='MechaCar_mpg.csv',check.names=F,stringsAsFactors = F)
+head(MechaCar)
+lm(vehicle_length ~ ., MechaCar)
+summary(lm(vehicle_length ~ ., MechaCar))
