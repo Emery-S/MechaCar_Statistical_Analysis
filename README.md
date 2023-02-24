@@ -47,15 +47,28 @@ briefly summarize your interpretation and findings for the t-test results. Inclu
 
 ## Study Design: MechaCar vs Competition
 
-#### Statistical Study
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+### Caution! Slippery when wet!
+Weather hazards on the roads pose great risk to drivers, passengers and pedestrians alike. Having a vehical that can handle wet or icy roads is vital, especially for those residing in colder climates and/or particuarly wet areas. 
 
-In your description, address the following questions:
+If MechaCar is to succeed, a test determining brake speed relative to the cars weight should help determine MechaCar's reliability in poor weather conditions.
 
-What metric or metrics are you going to test?
+#### Hypotheses
+Null Hypothesis: MechaCar's Break speed is the same as other cars on wet roads.
+Alternate Hypothesis: MechaCar's Break speed not the same as other cars on wet roads.
 
-What is the null hypothesis or alternative hypothesis?
+#### Metrics
+Dependent Variable: Break speed in mph
+Independent Variable: Car weight in lbs
+Independent Variable: Car name/type
 
-What statistical test would you use to test the hypothesis? And why?
+The statistical test utilized for a comprehensive understanding of the results would be the one-sample t-test. This is optimal because it can directly compare MechaCar's mean break speed to the mean break speed from a sample size of different car weights, addressing the specified hypothesis. 
 
-What data is needed to run the statistical test?
+The two tests that would need to be conducted on MechaCar is as follows:
+* Break speed on asphalt concrete (our control group)
+* Break speed on wet asphalt concrete
+
+The data collected would include the car name/type, its break speed in mph and a record of the cars weight in lbs. Once the statistical tests are complete, two heat maps should be created, one for break speed on asphalt and one for break speed on wet roads. The heat maps will display the names of the cars compared to their break speeds with a color change based on car weight.
+
+
+<sub>This statistical analysis can be performed on similar data sets from differing road conditions including flooded, ice covered, sand covered, snow covered, etc. each with an individual heat map.</sub>
+
