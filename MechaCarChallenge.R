@@ -8,7 +8,7 @@ MechaCar <- read.csv(file='MechaCar_mpg.csv',check.names=F,stringsAsFactors = F)
 head(MechaCar)
 
 # create a linear regression using lm with all six variables
-lm(vehicle_length ~ ., MechaCar)
+lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, MechaCar)
 summary(lm(vehicle_length ~ ., MechaCar))
 
 # read in csv
