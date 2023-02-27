@@ -9,7 +9,7 @@ head(MechaCar)
 
 # create a linear regression using lm with all six variables
 lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, MechaCar)
-summary(lm(vehicle_length ~ ., MechaCar))
+summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, MechaCar))
 
 # read in csv
 SusCoil <- read.csv(file='Suspension_Coil.csv', check.names=F, stringsAsFactors=F)
