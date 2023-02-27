@@ -15,7 +15,7 @@ The R-squared is equivalent to 71.5% which means the model will predict the mpg 
 
 <img width="600" alt="Screen Shot 2023-02-26 at 9 26 20 PM" src="https://user-images.githubusercontent.com/112206035/221458310-aa5aba2d-5794-4027-b4c5-93831dc8608e.png">
 
-<img width="600" alt="Screen Shot 2023-02-26 at 9 26 31 PM" src="https://user-images.githubusercontent.com/112206035/221458268-73f08517-c860-4051-9c1a-32f8274189f2.png">
+<img width="620" alt="Screen Shot 2023-02-26 at 9 26 31 PM" src="https://user-images.githubusercontent.com/112206035/221458268-73f08517-c860-4051-9c1a-32f8274189f2.png">
 
 
 ## Summary Statistics on Suspension Coils
