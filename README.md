@@ -1,5 +1,5 @@
 # MechaCar_Statistical_Analysis
-This analysis is review of the production data for the MechaCar prototypes 
+This analysis is a review of the production data for the MechaCar prototypes 
 
 ## Linear Regression to Predict MPG
 
